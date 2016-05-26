@@ -16,18 +16,24 @@ class MainViewController: UITabBarController {
         var bar  = self.tabBar
         if(bar.items?.count>=3){
             var statusBar = bar.items![0] as UITabBarItem
-            var deplyBar = bar.items![1] as UITabBarItem
+            var deployBar = bar.items![1] as UITabBarItem
             var settingBar = bar.items![2] as UITabBarItem
             
-            let monitorPic = UIImage(named:"monitor_focus.png")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
+            let monitorPic = UIImage(named:"monitor.png")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
+            let monitorPicUnfocus = UIImage(named:"monitor_nonfocus.png")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
             statusBar.selectedImage=monitorPic
+            statusBar.image=monitorPicUnfocus
             //chatBar.image=chatPic
             
-            let consolePic = UIImage(named: "console_focus.png")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
-            deplyBar.selectedImage=consolePic
+            let consolePic = UIImage(named: "console.png")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
+            let consolePicUnFocs = UIImage(named: "console_nonfocus.png")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
+            deployBar.selectedImage=consolePic
+            deployBar.image=consolePicUnFocs
             
-            let cpreferencePic = UIImage(named: "preferences_focus.png")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
-            settingBar.selectedImage=cpreferencePic
+            let preferencePic = UIImage(named: "preferences.png")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
+            let preferencePicUnFous = UIImage(named: "preferences_nonfocus.png")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
+            settingBar.selectedImage=preferencePic
+            settingBar.image=preferencePicUnFous
         }
 
         // Do any additional setup after loading the view.
