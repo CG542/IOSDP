@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A13909261CF4BD220075F9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13909251CF4BD220075F9D2 /* AppDelegate.swift */; };
-		A13909281CF4BD220075F9D2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13909271CF4BD220075F9D2 /* FirstViewController.swift */; };
-		A139092A1CF4BD220075F9D2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13909291CF4BD220075F9D2 /* SecondViewController.swift */; };
 		A139092D1CF4BD220075F9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A139092B1CF4BD220075F9D2 /* Main.storyboard */; };
 		A139092F1CF4BD220075F9D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A139092E1CF4BD220075F9D2 /* Images.xcassets */; };
 		A13909321CF4BD220075F9D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13909301CF4BD220075F9D2 /* LaunchScreen.xib */; };
 		A139093E1CF4BD220075F9D2 /* IOSDPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A139093D1CF4BD220075F9D2 /* IOSDPTests.swift */; };
+		A193F1561CF75F0C00249720 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A193F1551CF75F0C00249720 /* SettingViewController.swift */; };
+		A193F15B1CF75F3A00249720 /* DeployViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A193F15A1CF75F3A00249720 /* DeployViewController.swift */; };
+		A193F15E1CF75F5000249720 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A193F15D1CF75F5000249720 /* StatusViewController.swift */; };
+		A193F1611CF75F6900249720 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A193F1601CF75F6900249720 /* LoginViewController.swift */; };
+		A193F1631CF75F7A00249720 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A193F1621CF75F7A00249720 /* MainViewController.swift */; };
+		A193F1651CF75FA200249720 /* HttpUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A193F1641CF75FA200249720 /* HttpUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +34,18 @@
 		A13909201CF4BD220075F9D2 /* IOSDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13909241CF4BD220075F9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A13909251CF4BD220075F9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A13909271CF4BD220075F9D2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A13909291CF4BD220075F9D2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A139092C1CF4BD220075F9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A139092E1CF4BD220075F9D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A13909311CF4BD220075F9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A13909371CF4BD220075F9D2 /* IOSDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSDPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A139093C1CF4BD220075F9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A139093D1CF4BD220075F9D2 /* IOSDPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDPTests.swift; sourceTree = "<group>"; };
+		A193F1551CF75F0C00249720 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = IOSDP/Setting/SettingViewController.swift; sourceTree = "<group>"; };
+		A193F15A1CF75F3A00249720 /* DeployViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeployViewController.swift; path = Deploy/DeployViewController.swift; sourceTree = "<group>"; };
+		A193F15D1CF75F5000249720 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatusViewController.swift; path = Status/StatusViewController.swift; sourceTree = "<group>"; };
+		A193F1601CF75F6900249720 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Login/LoginViewController.swift; sourceTree = "<group>"; };
+		A193F1621CF75F7A00249720 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A193F1641CF75FA200249720 /* HttpUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +87,14 @@
 		A13909221CF4BD220075F9D2 /* IOSDP */ = {
 			isa = PBXGroup;
 			children = (
+				A193F1641CF75FA200249720 /* HttpUtility.swift */,
+				A193F1621CF75F7A00249720 /* MainViewController.swift */,
+				A193F15F1CF75F5D00249720 /* Login */,
+				A193F15C1CF75F3F00249720 /* Status */,
+				A193F1571CF75F1A00249720 /* Deploy */,
+				A193F1541CF75EF200249720 /* Setting */,
 				A13909251CF4BD220075F9D2 /* AppDelegate.swift */,
-				A13909271CF4BD220075F9D2 /* FirstViewController.swift */,
-				A13909291CF4BD220075F9D2 /* SecondViewController.swift */,
 				A139092B1CF4BD220075F9D2 /* Main.storyboard */,
-				A139092E1CF4BD220075F9D2 /* Images.xcassets */,
-				A13909301CF4BD220075F9D2 /* LaunchScreen.xib */,
 				A13909231CF4BD220075F9D2 /* Supporting Files */,
 			);
 			path = IOSDP;
@@ -93,6 +103,8 @@
 		A13909231CF4BD220075F9D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A13909301CF4BD220075F9D2 /* LaunchScreen.xib */,
+				A139092E1CF4BD220075F9D2 /* Images.xcassets */,
 				A13909241CF4BD220075F9D2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +125,39 @@
 				A139093C1CF4BD220075F9D2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A193F1541CF75EF200249720 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A193F1551CF75F0C00249720 /* SettingViewController.swift */,
+			);
+			name = Setting;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A193F1571CF75F1A00249720 /* Deploy */ = {
+			isa = PBXGroup;
+			children = (
+				A193F15A1CF75F3A00249720 /* DeployViewController.swift */,
+			);
+			name = Deploy;
+			sourceTree = "<group>";
+		};
+		A193F15C1CF75F3F00249720 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				A193F15D1CF75F5000249720 /* StatusViewController.swift */,
+			);
+			name = Status;
+			sourceTree = "<group>";
+		};
+		A193F15F1CF75F5D00249720 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A193F1601CF75F6900249720 /* LoginViewController.swift */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +260,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A139092A1CF4BD220075F9D2 /* SecondViewController.swift in Sources */,
+				A193F1611CF75F6900249720 /* LoginViewController.swift in Sources */,
+				A193F15B1CF75F3A00249720 /* DeployViewController.swift in Sources */,
+				A193F1651CF75FA200249720 /* HttpUtility.swift in Sources */,
 				A13909261CF4BD220075F9D2 /* AppDelegate.swift in Sources */,
-				A13909281CF4BD220075F9D2 /* FirstViewController.swift in Sources */,
+				A193F15E1CF75F5000249720 /* StatusViewController.swift in Sources */,
+				A193F1561CF75F0C00249720 /* SettingViewController.swift in Sources */,
+				A193F1631CF75F7A00249720 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +460,7 @@
 				A13909431CF4BD220075F9D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A13909441CF4BD220075F9D2 /* Build configuration list for PBXNativeTarget "IOSDPTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +469,7 @@
 				A13909461CF4BD220075F9D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
