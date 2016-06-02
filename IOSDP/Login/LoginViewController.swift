@@ -9,18 +9,27 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-    @IBOutlet weak var logname: UITextField!
+    
+    @IBOutlet weak var loginname: UITextField!
     @IBOutlet weak var password: UITextField!
     
     override func viewDidLoad(){
-       logname.text="cps";
+       loginname.text="cps";
         password.text="cps";
     }
     
-    @IBAction func clickLogin() {
-        if(HttpUtility.ValdateUser(logname.text, password: password.text)){
+    @IBAction func login_Click(sender: AnyObject) {
+        if HttpUtility.ValdateUser(loginname.text, password: password.text){
+            GlobalPara.UserName=loginname.text
+            GlobalPara.PSW=password.text
             self.performSegueWithIdentifier("loginSegue", sender: self)
         }
     }
+    
+//    @IBAction func clickLogin() {
+//        if(HttpUtility.ValdateUser(logname.text, password: password.text)){
+//            self.performSegueWithIdentifier("loginSegue", sender: self)
+//        }
+//    }
     
 }

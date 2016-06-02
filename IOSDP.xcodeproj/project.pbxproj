@@ -12,6 +12,7 @@
 		A139092F1CF4BD220075F9D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A139092E1CF4BD220075F9D2 /* Images.xcassets */; };
 		A13909321CF4BD220075F9D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13909301CF4BD220075F9D2 /* LaunchScreen.xib */; };
 		A139093E1CF4BD220075F9D2 /* IOSDPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A139093D1CF4BD220075F9D2 /* IOSDPTests.swift */; };
+		A14452501D00921B00945004 /* GlobalPara.swift in Sources */ = {isa = PBXBuildFile; fileRef = A144524F1D00921B00945004 /* GlobalPara.swift */; };
 		A193F1561CF75F0C00249720 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A193F1551CF75F0C00249720 /* SettingViewController.swift */; };
 		A193F15B1CF75F3A00249720 /* DeployViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A193F15A1CF75F3A00249720 /* DeployViewController.swift */; };
 		A193F15E1CF75F5000249720 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A193F15D1CF75F5000249720 /* StatusViewController.swift */; };
@@ -40,6 +41,7 @@
 		A13909371CF4BD220075F9D2 /* IOSDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSDPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A139093C1CF4BD220075F9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A139093D1CF4BD220075F9D2 /* IOSDPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDPTests.swift; sourceTree = "<group>"; };
+		A144524F1D00921B00945004 /* GlobalPara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalPara.swift; sourceTree = "<group>"; };
 		A193F1551CF75F0C00249720 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = IOSDP/Setting/SettingViewController.swift; sourceTree = "<group>"; };
 		A193F15A1CF75F3A00249720 /* DeployViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeployViewController.swift; path = Deploy/DeployViewController.swift; sourceTree = "<group>"; };
 		A193F15D1CF75F5000249720 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatusViewController.swift; path = Status/StatusViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				A13909251CF4BD220075F9D2 /* AppDelegate.swift */,
 				A139092B1CF4BD220075F9D2 /* Main.storyboard */,
 				A13909231CF4BD220075F9D2 /* Supporting Files */,
+				A144524F1D00921B00945004 /* GlobalPara.swift */,
 			);
 			path = IOSDP;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14452501D00921B00945004 /* GlobalPara.swift in Sources */,
 				A193F1611CF75F6900249720 /* LoginViewController.swift in Sources */,
 				A193F15B1CF75F3A00249720 /* DeployViewController.swift in Sources */,
 				A193F1651CF75FA200249720 /* HttpUtility.swift in Sources */,
